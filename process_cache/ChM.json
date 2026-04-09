@@ -1,0 +1,21 @@
+{
+    "project_name": "ChM",
+    "summary": "A structured frontend lab project demonstrating modern CSS architecture, responsive design patterns, and maintainable stylesheet practices.",
+    "technologies": [
+        "CSS3",
+        "HTML5",
+        "Git",
+        "Flexbox",
+        "Responsive Media Queries",
+        "W3C CSS Validator"
+    ],
+    "key_features": [
+        "Modular CSS organization by layout, component, and utility",
+        "Mobile-first responsive design with relative units (rem, %, vw/vh)",
+        "Strict cascade management to avoid specificity conflicts",
+        "Comprehensive inline documentation for design decisions",
+        "Automated validation and cross-browser testing workflow"
+    ],
+    "achievements": "Engineered a scalable and maintainable CSS architecture with logical grouping and low-specificity selectors, implemented responsive flexbox grids with precise breakpoint control, and established a standardized development pipeline featuring W3C validation, local server testing, and conventional Git commit practices.",
+    "repo_url": "https://github.com/ваше_имя/ChM"
+}

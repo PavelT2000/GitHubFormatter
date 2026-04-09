@@ -1,0 +1,21 @@
+{
+    "project_name": "OAiP",
+    "summary": "Academic course archive for Fundamentals of Algorithms and Programming, containing Delphi source code, configurations, technical reports, and architectural diagrams for laboratory assignments and control works.",
+    "technologies": [
+        "Delphi (Object Pascal)",
+        "VCL (Visual Component Library)",
+        "Embarcadero RAD Studio",
+        "Git",
+        "Microsoft Visio",
+        "Draw.io"
+    ],
+    "key_features": [
+        "Structured repository by assignment type and academic sequence",
+        "Implementation of core algorithms (recursion, sorting, arrays, string processing, data structures)",
+        "Custom .aiignore for AI-assisted workflow optimization",
+        "Cross-platform line-ending normalization via .gitattributes",
+        "Comprehensive documentation with technical reports and architecture/flow diagrams"
+    ],
+    "achievements": "Implemented foundational algorithms and data structures from scratch in Object Pascal using the VCL framework. Designed and documented complex program logic through architectural and flow diagrams. Configured robust version control hygiene with custom ignore rules and line-ending normalization to manage IDE artifacts and ensure cross-platform compatibility. Structured a multi-project academic repository with clear traceability, build configurations, and comprehensive technical documentation.",
+    "repo_url": "https://github.com/PavelT2000/OAiP"
+}

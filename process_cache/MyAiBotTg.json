@@ -1,0 +1,28 @@
+{
+    "project_name": "MyAiBotTg",
+    "summary": "A production-ready Telegram bot leveraging OpenAI's Assistants API v2 for semantic document search, with asynchronous PostgreSQL persistence, Redis state management, and Amplitude analytics.",
+    "technologies": [
+        "Python 3.12",
+        "aiogram 3.x",
+        "OpenAI Assistants API v2",
+        "PostgreSQL",
+        "asyncpg",
+        "SQLAlchemy 2.0",
+        "Redis 7",
+        "Amplitude",
+        "Alembic",
+        "Docker",
+        "Docker Compose",
+        "Pydantic"
+    ],
+    "key_features": [
+        "OpenAI Assistants API v2 with Vector Store & File Search",
+        "Asynchronous Telegram bot (aiogram 3.x) with Redis-backed FSM",
+        "Async PostgreSQL persistence via SQLAlchemy 2.0",
+        "Amplitude analytics integration for user behavior tracking",
+        "Containerized deployment with Docker Compose",
+        "Alembic database migrations for schema versioning"
+    ],
+    "achievements": "Designed and implemented a fully asynchronous, production-ready bot architecture handling concurrent user sessions via Redis FSM and async SQLAlchemy 2.0. Automated OpenAI Vector Store provisioning and domain-specific document ingestion on startup, enabling context-aware semantic search. Engineered robust infrastructure with Docker Compose, Alembic migrations, and secure environment configuration, while integrating Amplitude for real-time analytics and user behavior tracking.",
+    "repo_url": "https://github.com/PavelT2000/MyAiBotTg"
+}

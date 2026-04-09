@@ -1,0 +1,22 @@
+{
+    "project_name": "Factorio Development Toolkit",
+    "summary": "A professional-grade development toolkit for the Factorio ecosystem that streamlines mod creation, automation scripting, and asset management with cross-platform compatibility and developer-first workflows.",
+    "technologies": [
+        "Node.js 18+",
+        "JavaScript/TypeScript",
+        "Git",
+        "npm/yarn/pnpm",
+        "ESLint",
+        "Prettier",
+        "Factorio Modding API"
+    ],
+    "key_features": [
+        "Cross-platform LF line-ending normalization via .gitattributes",
+        "Modular architecture with decoupled core, utilities, and configuration layers",
+        "Automated build, linting, testing, and .zip packaging pipelines",
+        "AI context filtering with .aiignore for optimized AI-assisted workflows",
+        "Hot-reloading and standardized development scripts for rapid iteration"
+    ],
+    "achievements": "Resolved cross-platform environment fragmentation by implementing automated LF normalization; architected a decoupled, modular codebase for scalable extension; engineered automated build and packaging pipelines that compile, optimize, and validate assets into production-ready .zip mods; optimized AI-assisted development workflows via context filtering; and implemented hot-reloading with asset optimization to streamline the developer feedback loop.",
+    "repo_url": "https://github.com/ваше_имя/Factorio"
+}

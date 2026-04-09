@@ -1,0 +1,24 @@
+{
+    "project_name": "InformationTheory",
+    "summary": "A collection of educational cryptographic implementations for an Information Theory course, featuring a classical Decimation block cipher and an LFSR-based stream cipher with cross-platform UI.",
+    "technologies": [
+        ".NET 10",
+        ".NET 9",
+        "Windows Forms",
+        "Avalonia UI",
+        "CommunityToolkit.Mvvm",
+        "C#",
+        "MVVM"
+    ],
+    "key_features": [
+        "Decimation Cipher with 33-character Russian alphabet",
+        "Interactive step-by-step visualization via DataGridView",
+        "Automatic key validation and GCD correction",
+        "LFSR Stream Cipher with 30-bit state register",
+        "Byte-wise XOR encryption for various file types",
+        "Cross-platform support (Windows/macOS/Linux)",
+        "MVVM architecture for Lab 2"
+    ],
+    "achievements": "Implemented modular arithmetic for encryption/decryption including iterative modular inverse resolution. Developed a custom LFSR using bitwise operations for keystream generation. Designed extensible architecture with interfaces and MVVM patterns. Validated bit-perfect data recovery across multiple file formats.",
+    "repo_url": "https://github.com/ваше_имя/InformationTheory"
+}

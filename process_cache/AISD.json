@@ -1,0 +1,21 @@
+{
+    "project_name": "AISD",
+    "summary": "A lightweight, console-based application that identifies a user's location in a multi-story facility via an interactive Q&A interface and provides deterministic, step-by-step navigation to the nearest exit.",
+    "technologies": [
+        "C#",
+        ".NET 8.0",
+        "State Machine Architecture",
+        "Directed Graphs",
+        "Console I/O",
+        "Zero External Dependencies"
+    ],
+    "key_features": [
+        "Interactive location identification via guided Q&A",
+        "Deterministic graph-based path navigation",
+        "State-driven logic for multi-step input handling",
+        "Zero third-party dependencies",
+        "Extensible centralized data model for rooms and routes"
+    ],
+    "achievements": "Designed and implemented a state-machine architecture to manage complex multi-step user input and decision branching for precise room identification. Engineered a directed graph routing system that delivers deterministic navigation paths without relying on heavy pathfinding algorithms. Orchestrated seamless phase transitions (identification → navigation → restart) and console I/O within a single execution loop, while maintaining a zero-dependency, highly extensible codebase with clean separation of concerns.",
+    "repo_url": "https://github.com/ваше_имя/AISD"
+}

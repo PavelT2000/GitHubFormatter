@@ -1,0 +1,25 @@
+{
+    "project_name": "C-",
+    "summary": "A comprehensive C#/.NET experimentation workspace featuring web applications, desktop GUIs, a custom 3D graphics engine, and object-oriented design patterns.",
+    "technologies": [
+        "C# 10+",
+        ".NET 8/9",
+        "ASP.NET Core",
+        "Blazor Server",
+        "Windows Forms (WinForms)",
+        "OpenTK",
+        "OpenGL (Immediate Mode)",
+        "GDI+",
+        "ADO.NET/SQL Client",
+        "Razor Components"
+    ],
+    "key_features": [
+        "Interactive Blazor Server web apps with modern minimal hosting",
+        "Custom 3D software rendering engine with vector math and camera controls",
+        "OpenTK-powered graphics application with fixed-timestep game loop",
+        "Extensible OOP banking system with transaction management",
+        "Console-based SQL integration module"
+    ],
+    "achievements": "Engineered a foundational software 3D rendering pipeline from scratch using WinForms GDI+, implementing custom vector algebra, camera transforms, and polygon rasterization without hardware acceleration. Designed a robust OOP banking architecture with immutable transaction models, inheritance, and extensible month-end processing. Integrated OpenTK for immediate mode OpenGL rendering with a fixed-timestep game loop and file-based polygon parsing. Configured modern ASP.NET Core Blazor Server applications with component routing, HTTPS redirection, and environment-aware error handling.",
+    "repo_url": "https://github.com/ваше_имя/C-"
+}

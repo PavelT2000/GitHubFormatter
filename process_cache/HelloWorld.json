@@ -1,0 +1,20 @@
+{
+    "project_name": "HelloWorld",
+    "summary": "A minimal, production-ready C# console application targeting .NET Framework 4.7.2, serving as a foundational template for legacy .NET workflows with standardized Visual Studio architecture and MSBuild configuration.",
+    "technologies": [
+        "C#",
+        ".NET Framework 4.7.2",
+        "MSBuild",
+        "Visual Studio 2019/2022",
+        "Git"
+    ],
+    "key_features": [
+        "Legacy MSBuild project format configuration",
+        "Assembly metadata management via AssemblyInfo.cs",
+        "Deterministic builds for reproducible compilation",
+        "Standard Debug/Release build configurations",
+        "Application runtime configuration via App.config"
+    ],
+    "achievements": "Configured legacy MSBuild project structure with explicit framework references and build configurations. Implemented deterministic builds to ensure reproducible compilation outputs across different environments. Established proper assembly metadata management and runtime configuration hooks following traditional .NET Framework conventions, creating a reliable reference template for legacy system development.",
+    "repo_url": "https://github.com/ваше_имя/HelloWorld"
+}

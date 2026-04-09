@@ -1,0 +1,37 @@
+{
+    "project_name": "webApp",
+    "summary": "A full-stack Telegram Mini App & Web Platform for dating/social discovery, built with FastAPI and React 19. Features secure Telegram authentication, JWT-protected APIs, profile matching/swipe mechanics, and an integrated Telegram bot.",
+    "technologies": [
+        "Python 3.11+",
+        "FastAPI",
+        "SQLAlchemy",
+        "Alembic",
+        "Uvicorn",
+        "PyJWT",
+        "aiogram",
+        "Telethon",
+        "React 19",
+        "Vite",
+        "React Router DOM",
+        "Material UI",
+        "CSS Modules",
+        "@twa-dev/sdk",
+        "SQLite/PostgreSQL/MySQL",
+        "ESLint",
+        "npm",
+        "Git",
+        "Cloudflare Tunnel"
+    ],
+    "key_features": [
+        "Secure Telegram Mini App authentication via initData validation & JWT",
+        "Swipe-style profile discovery with skip/like logic",
+        "Likes & mutual matching tracking system",
+        "Media management with photo uploads & gallery preview",
+        "Advanced filtering (age, city, gender, like-status)",
+        "Integrated Telegram bot for notifications & admin tasks",
+        "Alembic-powered DB migrations with cascade deletes",
+        "Responsive SPA optimized for Telegram WebView"
+    ],
+    "achievements": "Architected a secure authentication flow by validating Telegram's initData and issuing JWTs for stateless API access. Engineered complex relational data models with SQLAlchemy to handle swipe mechanics, mutual matching, and cascade deletes. Integrated asynchronous Telegram bot processes alongside FastAPI for background notifications. Optimized frontend delivery using React 19, Vite, and TWA SDK to ensure native-like performance within Telegram's WebView constraints. Streamlined deployment by configuring FastAPI to serve the compiled React SPA in production.",
+    "repo_url": "https://github.com/PavelT2000/webApp"
+}

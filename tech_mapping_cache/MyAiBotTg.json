@@ -1,0 +1,11 @@
+[
+  "Python",
+  "aiogram",
+  "OpenAI API",
+  "PostgreSQL",
+  "SQLAlchemy",
+  "Redis",
+  "Amplitude",
+  "Alembic",
+  "Docker"
+]

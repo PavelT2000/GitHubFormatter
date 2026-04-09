@@ -1,0 +1,23 @@
+{
+    "project_name": "HtmlLearning",
+    "summary": "An educational sandbox repository for practicing fundamental web development and algorithmic programming concepts through modular, hands-on exercises.",
+    "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "C++",
+        "Git",
+        "VS Code",
+        "lldb"
+    ],
+    "key_features": [
+        "Modular directory structure for isolated technical objectives",
+        "Interactive JS DOM manipulation (mouse-tracking, event-driven toggling, dynamic generation)",
+        "Advanced CSS positioning and layered compositions",
+        "Semantic HTML table structures and typography styling",
+        "C++ manual digit-by-digit multiplication for large integers",
+        "Preconfigured VS Code debugging environment"
+    ],
+    "achievements": "Implemented manual large-integer arithmetic in C++ using string manipulation to bypass standard integer overflow limitations. Developed interactive DOM features including real-time mouse tracking and dynamic element generation. Engineered complex CSS positioning systems for layered asset placement. Structured a modular, self-contained learning environment with independent modules, local server configurations, and IDE debugging setups.",
+    "repo_url": "https://github.com/ваше_имя/HtmlLearning"
+}

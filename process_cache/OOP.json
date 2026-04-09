@@ -1,0 +1,21 @@
+{
+    "project_name": "OOP Lab 1: Space Vessel Management System",
+    "summary": "A C# Windows Forms application demonstrating core OOP principles through a space fleet management simulation. It models a hierarchical spacecraft architecture with dynamic UI components and polymorphic fleet management.",
+    "technologies": [
+        "C#",
+        ".NET 6.0+",
+        "Windows Forms (WinForms)",
+        "Visual Studio / JetBrains Rider / VS Code",
+        "Git"
+    ],
+    "key_features": [
+        "Multi-level class hierarchy with abstract base and sealed derived classes",
+        "Polymorphic fleet management using heterogeneous collections",
+        "Dynamic UI component switching based on runtime selection",
+        "Custom indexers for array-based cargo log management",
+        "Strict encapsulation with validated properties and protected constructors",
+        "Object lifecycle management via finalizers"
+    ],
+    "achievements": "Successfully implemented a comprehensive OOP architecture in a desktop UI environment, resolving challenges in dynamic component loading, polymorphic state rendering, and data validation. Engineered a scalable class hierarchy with custom indexers and sealed classes to enforce design constraints, while structuring the codebase for future architectural migrations (MVVM/MVP) and deterministic resource management.",
+    "repo_url": "https://github.com/PavelT2000/OOP"
+}

@@ -1,0 +1,19 @@
+{
+    "project_name": "k-means-pattern-recognition",
+    "summary": "Python-based educational implementation of K-Means and Maximin clustering algorithms for pattern recognition, featuring an interactive CLI, vectorized computations, and iterative convergence visualization.",
+    "technologies": [
+        "Python 3.8+",
+        "NumPy",
+        "Matplotlib"
+    ],
+    "key_features": [
+        "Interactive CLI for dataset and cluster configuration",
+        "K-Means with convergence detection via np.allclose",
+        "Maximin algorithm with dynamic cluster determination",
+        "Vectorized distance calculations using NumPy broadcasting",
+        "Matplotlib visualization of iterative convergence and final clusters",
+        "Educational design for pattern recognition laboratory exercises"
+    ],
+    "achievements": "Optimized distance matrix computations using NumPy broadcasting to handle up to 100,000 data points efficiently, mitigating O(n×k) memory constraints. Implemented dynamic cluster discovery in the Maximin algorithm via adaptive distance thresholding. Engineered precise convergence detection for K-Means using np.allclose, eliminating redundant iterations. Built an interactive CLI with real-time iterative visualization to demonstrate algorithmic behavior for educational purposes.",
+    "repo_url": "https://github.com/PavelT2000/k-means-pattern-recognition"
+}

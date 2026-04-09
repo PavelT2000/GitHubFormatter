@@ -1,0 +1,219 @@
+{
+    ".NET 8": [
+        "https://github.com/PavelT2000/.Net",
+        "https://github.com/PavelT2000/AISD",
+        "https://github.com/PavelT2000/C-",
+        "https://github.com/PavelT2000/HelloWorld",
+        "https://github.com/PavelT2000/InformationTheory",
+        "https://github.com/PavelT2000/Lab-6-Test-Task",
+        "https://github.com/PavelT2000/OOP",
+        "https://github.com/PavelT2000/OOPLab1"
+    ],
+    "ASP.NET Core": [
+        "https://github.com/PavelT2000/.Net",
+        "https://github.com/PavelT2000/C-"
+    ],
+    "Entity Framework Core": [
+        "https://github.com/PavelT2000/.Net",
+        "https://github.com/PavelT2000/Lab-6-Test-Task"
+    ],
+    "SQLite": [
+        "https://github.com/PavelT2000/.Net",
+        "https://github.com/PavelT2000/C-",
+        "https://github.com/PavelT2000/Dating",
+        "https://github.com/PavelT2000/OnlinerCPUParser"
+    ],
+    "JWT": [
+        "https://github.com/PavelT2000/.Net",
+        "https://github.com/PavelT2000/Dating"
+    ],
+    "Swagger": [
+        "https://github.com/PavelT2000/.Net"
+    ],
+    "Java": [
+        "https://github.com/PavelT2000/ADS2025-02-12"
+    ],
+    "JUnit": [
+        "https://github.com/PavelT2000/ADS2025-02-12"
+    ],
+    "FastAPI": [
+        "https://github.com/PavelT2000/ai_service",
+        "https://github.com/PavelT2000/Dating",
+        "https://github.com/PavelT2000/my-home-server-app",
+        "https://github.com/PavelT2000/webApp"
+    ],
+    "Python": [
+        "https://github.com/PavelT2000/ai_service",
+        "https://github.com/PavelT2000/Dating",
+        "https://github.com/PavelT2000/k-means-pattern-recognition",
+        "https://github.com/PavelT2000/my-home-server-app",
+        "https://github.com/PavelT2000/MyAiBotTg",
+        "https://github.com/PavelT2000/MyAiTgBot",
+        "https://github.com/PavelT2000/OnlinerCPUParser"
+    ],
+    "Docker": [
+        "https://github.com/PavelT2000/ai_service",
+        "https://github.com/PavelT2000/MyAiBotTg"
+    ],
+    "Pydantic": [
+        "https://github.com/PavelT2000/ai_service",
+        "https://github.com/PavelT2000/MyAiTgBot"
+    ],
+    "Uvicorn": [
+        "https://github.com/PavelT2000/ai_service"
+    ],
+    "C++": [
+        "https://github.com/PavelT2000/bitset",
+        "https://github.com/PavelT2000/HtmlLearning",
+        "https://github.com/PavelT2000/LANChatQt"
+    ],
+    "Blazor": [
+        "https://github.com/PavelT2000/C-"
+    ],
+    "WinForms": [
+        "https://github.com/PavelT2000/C-",
+        "https://github.com/PavelT2000/InformationTheory"
+    ],
+    "OpenTK": [
+        "https://github.com/PavelT2000/C-"
+    ],
+    "SQL Server": [
+        "https://github.com/PavelT2000/C-",
+        "https://github.com/PavelT2000/Lab-6-Test-Task"
+    ],
+    "Jinja2": [
+        "https://github.com/PavelT2000/Dating",
+        "https://github.com/PavelT2000/my-home-server-app"
+    ],
+    "HTML5": [
+        "https://github.com/PavelT2000/github.io",
+        "https://github.com/PavelT2000/Resume"
+    ],
+    "CSS3": [
+        "https://github.com/PavelT2000/github.io",
+        "https://github.com/PavelT2000/Resume"
+    ],
+    "JavaScript": [
+        "https://github.com/PavelT2000/github.io",
+        "https://github.com/PavelT2000/HtmlLearning",
+        "https://github.com/PavelT2000/Resume"
+    ],
+    "Bootstrap": [
+        "https://github.com/PavelT2000/github.io",
+        "https://github.com/PavelT2000/Resume"
+    ],
+    "HTML": [
+        "https://github.com/PavelT2000/HtmlLearning"
+    ],
+    "CSS": [
+        "https://github.com/PavelT2000/HtmlLearning"
+    ],
+    "Avalonia": [
+        "https://github.com/PavelT2000/InformationTheory"
+    ],
+    "CommunityToolkit.Mvvm": [
+        "https://github.com/PavelT2000/InformationTheory"
+    ],
+    "numpy": [
+        "https://github.com/PavelT2000/k-means-pattern-recognition"
+    ],
+    "matplotlib": [
+        "https://github.com/PavelT2000/k-means-pattern-recognition"
+    ],
+    "Delphi": [
+        "https://github.com/PavelT2000/kursach",
+        "https://github.com/PavelT2000/Laba2OAIP",
+        "https://github.com/PavelT2000/Memory_Trainer",
+        "https://github.com/PavelT2000/OAiP",
+        "https://github.com/PavelT2000/OAIP2"
+    ],
+    "VCL": [
+        "https://github.com/PavelT2000/kursach",
+        "https://github.com/PavelT2000/Laba2OAIP",
+        "https://github.com/PavelT2000/OAiP"
+    ],
+    "LaTeX": [
+        "https://github.com/PavelT2000/kursach"
+    ],
+    "Qt": [
+        "https://github.com/PavelT2000/LANChatQt"
+    ],
+    "Object Pascal": [
+        "https://github.com/PavelT2000/Memory_Trainer",
+        "https://github.com/PavelT2000/OAIP2"
+    ],
+    "GitHub Actions": [
+        "https://github.com/PavelT2000/my-home-server-app"
+    ],
+    "Tailscale": [
+        "https://github.com/PavelT2000/my-home-server-app"
+    ],
+    "Cloudflare Tunnel": [
+        "https://github.com/PavelT2000/my-home-server-app"
+    ],
+    "systemd": [
+        "https://github.com/PavelT2000/my-home-server-app"
+    ],
+    "aiogram": [
+        "https://github.com/PavelT2000/MyAiBotTg",
+        "https://github.com/PavelT2000/MyAiTgBot",
+        "https://github.com/PavelT2000/webApp"
+    ],
+    "OpenAI API": [
+        "https://github.com/PavelT2000/MyAiBotTg"
+    ],
+    "PostgreSQL": [
+        "https://github.com/PavelT2000/MyAiBotTg",
+        "https://github.com/PavelT2000/webApp"
+    ],
+    "SQLAlchemy": [
+        "https://github.com/PavelT2000/MyAiBotTg",
+        "https://github.com/PavelT2000/webApp"
+    ],
+    "Redis": [
+        "https://github.com/PavelT2000/MyAiBotTg"
+    ],
+    "Amplitude": [
+        "https://github.com/PavelT2000/MyAiBotTg"
+    ],
+    "Alembic": [
+        "https://github.com/PavelT2000/MyAiBotTg",
+        "https://github.com/PavelT2000/webApp"
+    ],
+    "MongoDB": [
+        "https://github.com/PavelT2000/MyAiTgBot"
+    ],
+    "httpx": [
+        "https://github.com/PavelT2000/MyAiTgBot"
+    ],
+    "C++17": [
+        "https://github.com/PavelT2000/Network"
+    ],
+    "WinSock2": [
+        "https://github.com/PavelT2000/Network"
+    ],
+    "CMake": [
+        "https://github.com/PavelT2000/Network"
+    ],
+    "DUnitX": [
+        "https://github.com/PavelT2000/OAIP2"
+    ],
+    "BeautifulSoup": [
+        "https://github.com/PavelT2000/OnlinerCPUParser"
+    ],
+    "requests": [
+        "https://github.com/PavelT2000/OnlinerCPUParser"
+    ],
+    "React": [
+        "https://github.com/PavelT2000/webApp"
+    ],
+    "Vite": [
+        "https://github.com/PavelT2000/webApp"
+    ],
+    "Material UI": [
+        "https://github.com/PavelT2000/webApp"
+    ],
+    "Telethon": [
+        "https://github.com/PavelT2000/webApp"
+    ]
+}

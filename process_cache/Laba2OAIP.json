@@ -1,0 +1,21 @@
+{
+    "project_name": "Laba2OAIP",
+    "summary": "Delphi VCL desktop application rendering a 2D animated ski jump sequence with procedural graphics, frame-based animation, and a resolution-independent coordinate system.",
+    "technologies": [
+        "Delphi (Embarcadero RAD Studio)",
+        "VCL Framework",
+        "WinAPI",
+        "Pascal",
+        "Git"
+    ],
+    "key_features": [
+        "Frame-based animation engine (~25 FPS via TTimer)",
+        "Procedural snowfall generation (50 dynamic particles)",
+        "Multi-stage automated ski jump sequence (5 phases)",
+        "Normalized coordinate system (0.0–1.0 mapping)",
+        "Interactive debug mode with coordinate measurement & clipboard export",
+        "Modular architecture with separated rendering, audio, and logic units"
+    ],
+    "achievements": "Engineered a resolution-independent normalized coordinate system to decouple logical positioning from screen dimensions. Designed a phase-driven animation pipeline synchronizing camera movement, procedural particle systems, and frame sequencing. Implemented non-intrusive real-time debugging tools (coordinate measurement, mouse panning) while maintaining a stable 25 FPS render loop. Structured the codebase into dedicated units following separation of concerns, ensuring maintainability and clear module boundaries.",
+    "repo_url": "https://github.com/PavelT2000/Laba2OAIP"
+}

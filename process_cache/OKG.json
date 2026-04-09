@@ -1,0 +1,21 @@
+{
+    "project_name": "OKG",
+    "summary": "A structured, version-controlled workspace for engineering CAD laboratory assignments, integrating 3D modeling, 2D drafting, and AI-optimized development workflows.",
+    "technologies": [
+        "Autodesk Inventor",
+        "AutoCAD",
+        "Git",
+        "Git LFS",
+        "AI Assistants (Cursor, GitHub Copilot, Claude Code)",
+        "Photoshop/GIMP"
+    ],
+    "key_features": [
+        "Centralized Git repository for CAD binaries (.ipt, .dwg)",
+        "AI context management via .aiignore to prevent token limit exhaustion",
+        "Cross-platform line-ending normalization with .gitattributes",
+        "Manual version tracking and rollback system",
+        "Standardized technical documentation export pipeline"
+    ],
+    "achievements": "Architected a Git-based workflow specifically optimized for large binary CAD files, solving version control challenges through manual timestamped backups and AI context exclusion rules. Configured cross-platform repository settings to eliminate diff noise and established strict guidelines for handling temporary files, software version compatibility, and documentation exports. Designed a scalable migration strategy to Git LFS for long-term performance and documented best practices for AI-assisted engineering workflows.",
+    "repo_url": "https://github.com/PavelT2000/OKG"
+}

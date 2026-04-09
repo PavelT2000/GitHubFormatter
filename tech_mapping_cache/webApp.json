@@ -1,0 +1,11 @@
+[
+  "FastAPI",
+  "React",
+  "PostgreSQL",
+  "SQLAlchemy",
+  "Alembic",
+  "Vite",
+  "Material UI",
+  "aiogram",
+  "Telethon"
+]
