@@ -1,0 +1,22 @@
+{
+    "project_name": "OOPLab1",
+    "summary": "A C# Windows Forms application demonstrating core OOP principles through a simulated space fleet management system. It models spacecraft hierarchies, manages operational states, and provides an interactive UI for dynamic ship creation and mission execution.",
+    "technologies": [
+        "C#",
+        ".NET SDK 6.0+",
+        "Windows Forms (WinForms)",
+        "Visual Studio 2022",
+        "Object-Oriented Programming (OOP)"
+    ],
+    "key_features": [
+        "Dynamic ship creation at runtime via modular input controls",
+        "Polymorphic mission execution with type-specific behavior",
+        "Real-time status tracking (fuel, IDs, specialized attributes)",
+        "Robust input validation and exception handling",
+        "Modular UI architecture using swappable UserControl panels",
+        "Custom indexers for cargo log management",
+        "Sealed classes to prevent unintended inheritance"
+    ],
+    "achievements": "Architected a multi-level OOP class hierarchy implementing abstraction, inheritance, polymorphism, and encapsulation. Engineered a modular WinForms UI with dynamic UserControl swapping and real-time fleet state synchronization. Solved complex runtime dispatch challenges using virtual/override methods and custom indexers for cargo management. Proactively identified architectural bottlenecks (UI/logic coupling, inefficient state updates) and documented scalable solutions including Factory pattern adoption, INotifyPropertyChanged for data binding, and .resx localization.",
+    "repo_url": "https://github.com/PavelT2000/OOPLab1"
+}

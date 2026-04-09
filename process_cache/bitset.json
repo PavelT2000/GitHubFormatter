@@ -1,0 +1,19 @@
+{
+    "project_name": "bitset",
+    "summary": "A lightweight, dynamically resizing bitset implementation in C++ that efficiently stores and manipulates individual bits using an underlying array of uint64_t blocks, providing runtime capacity adjustment unlike std::bitset.",
+    "technologies": [
+        "C++11",
+        "Standard C++ Library (<cstdint>, <algorithm>, <cstring>)",
+        "GCC/Clang/MSVC",
+        "VS Code"
+    ],
+    "key_features": [
+        "Dynamic capacity expansion at runtime",
+        "Efficient 64-bit block-level bitwise operations",
+        "Full value semantics with copy-and-swap idiom",
+        "Zero external dependencies",
+        "Comprehensive built-in test suite"
+    ],
+    "achievements": "Implemented dynamic memory management for bit storage with automatic resizing when exceeding capacity. Designed exception-safe resource handling using the copy-and-swap idiom for robust copy/move semantics. Optimized set operations (union, intersection, subset checks) via 64-bit block-level bitwise manipulation. Delivered a standalone, zero-dependency library with a complete test suite ensuring correctness and performance.",
+    "repo_url": "https://github.com/ваше_имя/bitset"
+}

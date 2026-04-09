@@ -1,0 +1,22 @@
+{
+    "project_name": "OnlinerCPUParser",
+    "summary": "A Python-based web scraper that aggregates CPU specifications, performance ratings, and market pricing from Technical City and Onliner.by, merges the datasets, calculates a performance-to-price efficiency metric, and stores results in a local SQLite database.",
+    "technologies": [
+        "Python 3.8+",
+        "requests",
+        "beautifulsoup4",
+        "SQLite",
+        "JSON-LD parsing",
+        "Web Scraping",
+        "ETL Pipeline"
+    ],
+    "key_features": [
+        "Dual-source data aggregation from Technical City and Onliner.by",
+        "Intelligent data matching with automatic handling of packaging variants (box/wof)",
+        "Dynamic performance-to-price efficiency metric calculation (rating/price)",
+        "Automated SQLite database population with full schema refresh on each run",
+        "Automated reporting with aggregate market statistics (count, total/average price)"
+    ],
+    "achievements": "Engineered a robust cross-source ETL pipeline that parses both HTML table structures and JSON-LD embedded data across multiple paginated endpoints. Implemented intelligent data normalization logic to align disparate datasets by stripping packaging suffixes and accurately matching model names. Designed an automated database workflow that dynamically calculates derived efficiency metrics and manages SQLite schema creation/refresh, while proactively documenting production constraints like rate limiting, anti-bot protections, and data volatility handling.",
+    "repo_url": "https://github.com/PavelT2000/OnlinerCPUParser"
+}

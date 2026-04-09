@@ -1,0 +1,22 @@
+{
+    "project_name": "PavelT2000.github.io",
+    "summary": "A responsive personal resume and portfolio website showcasing skills and experience, built with HTML, CSS, JS, and Bootstrap, and hosted on GitHub Pages.",
+    "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript (ES6+)",
+        "Bootstrap 5.2.3",
+        "Font Awesome 6.3.0",
+        "Google Fonts",
+        "GitHub Pages"
+    ],
+    "key_features": [
+        "Fully Responsive Layout",
+        "Smooth Navigation with ScrollSpy",
+        "Skill Visualization Grid",
+        "Contact Integration",
+        "Lightweight Static Architecture"
+    ],
+    "achievements": "Customized the Start Bootstrap Resume template to create a unique personal brand, implemented responsive design for desktop, tablet, and mobile viewports, optimized assets for fast loading performance, and configured deployment via GitHub Pages.",
+    "repo_url": "https://github.com/ваше_имя/github.io"
+}

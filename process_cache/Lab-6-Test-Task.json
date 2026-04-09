@@ -1,0 +1,26 @@
+{
+    "project_name": "Lab-6-Test-Task",
+    "summary": "A .NET ASP.NET Core Web API application for managing and querying warehouse inventory data using a clean, layered architecture. It exposes RESTful endpoints with complex business logic for product and warehouse filtering, backed by EF Core and SQL Server.",
+    "technologies": [
+        ".NET 8/9",
+        "ASP.NET Core Web API",
+        "C#",
+        "Entity Framework Core",
+        "Microsoft SQL Server",
+        "Swagger UI",
+        "OpenAPI",
+        "REST",
+        "LINQ",
+        "Dependency Injection"
+    ],
+    "key_features": [
+        "Clean layered architecture (Controller → Service → Repository/DbContext)",
+        "RESTful API endpoints with complex business filtering rules",
+        "Automatic database seeding and schema generation on startup",
+        "Interactive API documentation via Swagger/OpenAPI",
+        "Asynchronous EF Core LINQ queries optimized for SQL translation",
+        "Strict separation of concerns with immutable core components"
+    ],
+    "achievements": "Implemented complex business logic strictly within the Service layer while adhering to strict immutability constraints on Models, Controllers, and DI configuration. Optimized database queries using asynchronous EF Core LINQ methods to ensure efficient SQL translation and execution. Designed stateless, scoped dependency injection and handled complex 1-to-many entity relationships with enum mapping. Configured automatic database initialization and seeding for rapid development cycles.",
+    "repo_url": "https://github.com/PavelT2000/Lab-6-Test-Task"
+}

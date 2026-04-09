@@ -1,0 +1,19 @@
+{
+    "project_name": "saves",
+    "summary": "A lightweight Windows-based utility that automates Git workflows for managing, backing up, and synchronizing save files using batch scripts.",
+    "technologies": [
+        "Windows Batch Scripting",
+        "Git",
+        "Git LFS",
+        "Windows 10+"
+    ],
+    "key_features": [
+        "Automated push cycle (stage, commit, push) via AutoGit.bat",
+        "Automated pull/merge workflow via GitFetch.bat",
+        "Structured backup naming convention for manual and automated saves",
+        "Configurable console output timeout for visibility",
+        "AI context exclusion via .aiignore"
+    ],
+    "achievements": "Designed and implemented a Windows batch-based automation layer for Git-driven save file synchronization. Solved workflow friction by scripting non-interactive push/pull cycles, addressing binary versioning constraints through Git LFS documentation, and establishing a robust naming convention for backup tracking. Configured credential management to enable seamless automated execution without manual authentication prompts.",
+    "repo_url": "https://github.com/PavelT2000/saves"
+}

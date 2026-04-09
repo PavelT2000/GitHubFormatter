@@ -1,0 +1,25 @@
+{
+    "project_name": "ai_service",
+    "summary": "A lightweight, production-ready FastAPI proxy and intelligent wrapper for Google's Gemini AI models, designed for seamless microservice integration with automatic fallback, function calling, and embedding generation.",
+    "technologies": [
+        "FastAPI",
+        "Python 3.10+",
+        "Pydantic v2",
+        "Google Gemini AI API",
+        "Uvicorn",
+        "HTTP/HTTPS Proxy",
+        "Python Logging",
+        "OpenAPI/Swagger",
+        "Docker/Systemd"
+    ],
+    "key_features": [
+        "Multi-model fallback routing",
+        "Native function calling & structured argument extraction",
+        "Dedicated embedding generation endpoint for RAG/semantic search",
+        "Configurable HTTP/HTTPS proxy support",
+        "Type-safe API contracts with Pydantic v2",
+        "Production-optimized structured logging"
+    ],
+    "achievements": "Designed and implemented a resilient AI proxy with automatic model fallback to gracefully handle API failures and timeouts. Engineered complex function calling logic with tool declaration parsing and structured argument extraction. Built strict, type-safe request/response validation using Pydantic v2, ensuring data integrity and auto-generated OpenAPI documentation. Configured namespace-optimized, stdout-ready logging for seamless integration with Docker, systemd, and cloud observability stacks. Developed a flexible proxy routing architecture to enable secure deployment in restricted corporate network environments.",
+    "repo_url": "https://github.com/ваше_имя/ai_service"
+}

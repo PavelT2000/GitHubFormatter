@@ -1,0 +1,21 @@
+{
+    "project_name": "ADS2025-02-12",
+    "summary": "Centralized repository for the Data Structures and Algorithms course at BSUIR, featuring student submissions, instructor reference solutions, and automated testing across 15 algorithmic modules.",
+    "technologies": [
+        "Java",
+        "JUnit",
+        "JDK 11+",
+        "IntelliJ IDEA",
+        "Eclipse",
+        "VS Code"
+    ],
+    "key_features": [
+        "Strict directory-to-package mapping",
+        "Cyrillic and Latin directory support",
+        "15 standardized lesson modules",
+        "Automated JUnit test suites",
+        "Per-student documentation requirements"
+    ],
+    "achievements": "Implemented complex data structures and algorithms including AVL/Red-Black trees, Graph algorithms, and Dynamic Programming. Managed cross-platform compatibility for Cyrillic package names and UTF-8 encoding.",
+    "repo_url": "https://github.com/ваше_имя/ADS2025-02-12"
+}

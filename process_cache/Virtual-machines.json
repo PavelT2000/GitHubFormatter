@@ -1,0 +1,22 @@
+{
+    "project_name": "Virtual-machines",
+    "summary": "A streamlined CLI toolkit for provisioning, managing, and orchestrating virtualized environments across multiple hypervisors and cloud platforms.",
+    "technologies": [
+        "Git",
+        "CLI Development",
+        "Infrastructure-as-Code (IaC)",
+        "Virtualization Backends (VirtualBox, QEMU/KVM, VMware)",
+        "Cloud Platforms (AWS EC2, Azure VMs)",
+        "CI/CD Pipelines",
+        "Cross-platform Configuration Management"
+    ],
+    "key_features": [
+        "Automated VM provisioning with minimal manual intervention",
+        "Reproducible environment deployments via IaC principles",
+        "Unified abstraction layer for cross-platform hypervisor/cloud compatibility",
+        "Comprehensive CLI for full VM lifecycle management (create, start, stop, status, list)",
+        "Optimized repository configuration for AI context exclusion and CI/CD consistency"
+    ],
+    "achievements": "Successfully abstracted complex, platform-specific hypervisor and cloud APIs into a single unified workflow. Implemented Infrastructure-as-Code principles to guarantee consistent, reproducible deployments across dev, staging, and production environments. Engineered cross-platform repository configurations to eliminate line-ending conflicts and strategically optimized AI/LLM context windows to reduce token usage and improve code analysis accuracy.",
+    "repo_url": "https://github.com/PavelT2000/Virtual-machines"
+}

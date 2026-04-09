@@ -1,0 +1,720 @@
+[
+    {
+        "project_name": ".NET Learning & Project Repository",
+        "summary": "A structured repository documenting a progressive learning journey through C# fundamentals, OOP, and ASP.NET Core Web API development, culminating in a production-ready Task Management API with JWT authentication and EF Core.",
+        "technologies": [
+            "C# 12",
+            ".NET 8",
+            "ASP.NET Core Web API",
+            "Entity Framework Core 8",
+            "SQLite",
+            "JWT (JSON Web Tokens)",
+            "Swagger/OpenAPI",
+            ".NET CLI",
+            "EF Core Migrations"
+        ],
+        "key_features": [
+            "Progressive C# & OOP console exercises covering syntax, collections, async/await, and exception handling",
+            "ASP.NET Core Web API with middleware pipeline, dependency injection, and attribute routing",
+            "Code-first database migrations with EF Core & SQLite",
+            "JWT-based authentication with claims and [Authorize] attributes",
+            "Swagger/OpenAPI documentation for interactive API testing",
+            "DTOs, model validation, and separation of concerns"
+        ],
+        "achievements": "Successfully architected a secure RESTful API implementing JWT token generation, claims-based authorization, and EF Core code-first migrations. Overcame challenges in middleware pipeline configuration, DTO mapping, model validation, and asynchronous programming while structuring a comprehensive, production-grade codebase with Swagger documentation and secure endpoint authorization.",
+        "repo_url": "https://github.com/ваше_имя/.Net"
+    },
+    {
+        "project_name": "ADS2025-02-12",
+        "summary": "Centralized repository for the Data Structures and Algorithms course at BSUIR, featuring student submissions, instructor reference solutions, and automated testing across 15 algorithmic modules.",
+        "technologies": [
+            "Java",
+            "JUnit",
+            "JDK 11+",
+            "IntelliJ IDEA",
+            "Eclipse",
+            "VS Code"
+        ],
+        "key_features": [
+            "Strict directory-to-package mapping",
+            "Cyrillic and Latin directory support",
+            "15 standardized lesson modules",
+            "Automated JUnit test suites",
+            "Per-student documentation requirements"
+        ],
+        "achievements": "Implemented complex data structures and algorithms including AVL/Red-Black trees, Graph algorithms, and Dynamic Programming. Managed cross-platform compatibility for Cyrillic package names and UTF-8 encoding.",
+        "repo_url": "https://github.com/ваше_имя/ADS2025-02-12"
+    },
+    {
+        "project_name": "AISD",
+        "summary": "A lightweight, console-based application that identifies a user's location in a multi-story facility via an interactive Q&A interface and provides deterministic, step-by-step navigation to the nearest exit.",
+        "technologies": [
+            "C#",
+            ".NET 8.0",
+            "State Machine Architecture",
+            "Directed Graphs",
+            "Console I/O",
+            "Zero External Dependencies"
+        ],
+        "key_features": [
+            "Interactive location identification via guided Q&A",
+            "Deterministic graph-based path navigation",
+            "State-driven logic for multi-step input handling",
+            "Zero third-party dependencies",
+            "Extensible centralized data model for rooms and routes"
+        ],
+        "achievements": "Designed and implemented a state-machine architecture to manage complex multi-step user input and decision branching for precise room identification. Engineered a directed graph routing system that delivers deterministic navigation paths without relying on heavy pathfinding algorithms. Orchestrated seamless phase transitions (identification → navigation → restart) and console I/O within a single execution loop, while maintaining a zero-dependency, highly extensible codebase with clean separation of concerns.",
+        "repo_url": "https://github.com/ваше_имя/AISD"
+    },
+    {
+        "project_name": "ai_service",
+        "summary": "A lightweight, production-ready FastAPI proxy and intelligent wrapper for Google's Gemini AI models, designed for seamless microservice integration with automatic fallback, function calling, and embedding generation.",
+        "technologies": [
+            "FastAPI",
+            "Python 3.10+",
+            "Pydantic v2",
+            "Google Gemini AI API",
+            "Uvicorn",
+            "HTTP/HTTPS Proxy",
+            "Python Logging",
+            "OpenAPI/Swagger",
+            "Docker/Systemd"
+        ],
+        "key_features": [
+            "Multi-model fallback routing",
+            "Native function calling & structured argument extraction",
+            "Dedicated embedding generation endpoint for RAG/semantic search",
+            "Configurable HTTP/HTTPS proxy support",
+            "Type-safe API contracts with Pydantic v2",
+            "Production-optimized structured logging"
+        ],
+        "achievements": "Designed and implemented a resilient AI proxy with automatic model fallback to gracefully handle API failures and timeouts. Engineered complex function calling logic with tool declaration parsing and structured argument extraction. Built strict, type-safe request/response validation using Pydantic v2, ensuring data integrity and auto-generated OpenAPI documentation. Configured namespace-optimized, stdout-ready logging for seamless integration with Docker, systemd, and cloud observability stacks. Developed a flexible proxy routing architecture to enable secure deployment in restricted corporate network environments.",
+        "repo_url": "https://github.com/ваше_имя/ai_service"
+    },
+    {
+        "project_name": "bitset",
+        "summary": "A lightweight, dynamically resizing bitset implementation in C++ that efficiently stores and manipulates individual bits using an underlying array of uint64_t blocks, providing runtime capacity adjustment unlike std::bitset.",
+        "technologies": [
+            "C++11",
+            "Standard C++ Library (<cstdint>, <algorithm>, <cstring>)",
+            "GCC/Clang/MSVC",
+            "VS Code"
+        ],
+        "key_features": [
+            "Dynamic capacity expansion at runtime",
+            "Efficient 64-bit block-level bitwise operations",
+            "Full value semantics with copy-and-swap idiom",
+            "Zero external dependencies",
+            "Comprehensive built-in test suite"
+        ],
+        "achievements": "Implemented dynamic memory management for bit storage with automatic resizing when exceeding capacity. Designed exception-safe resource handling using the copy-and-swap idiom for robust copy/move semantics. Optimized set operations (union, intersection, subset checks) via 64-bit block-level bitwise manipulation. Delivered a standalone, zero-dependency library with a complete test suite ensuring correctness and performance.",
+        "repo_url": "https://github.com/ваше_имя/bitset"
+    },
+    {
+        "project_name": "C-",
+        "summary": "A comprehensive C#/.NET experimentation workspace featuring web applications, desktop GUIs, a custom 3D graphics engine, and object-oriented design patterns.",
+        "technologies": [
+            "C# 10+",
+            ".NET 8/9",
+            "ASP.NET Core",
+            "Blazor Server",
+            "Windows Forms (WinForms)",
+            "OpenTK",
+            "OpenGL (Immediate Mode)",
+            "GDI+",
+            "ADO.NET/SQL Client",
+            "Razor Components"
+        ],
+        "key_features": [
+            "Interactive Blazor Server web apps with modern minimal hosting",
+            "Custom 3D software rendering engine with vector math and camera controls",
+            "OpenTK-powered graphics application with fixed-timestep game loop",
+            "Extensible OOP banking system with transaction management",
+            "Console-based SQL integration module"
+        ],
+        "achievements": "Engineered a foundational software 3D rendering pipeline from scratch using WinForms GDI+, implementing custom vector algebra, camera transforms, and polygon rasterization without hardware acceleration. Designed a robust OOP banking architecture with immutable transaction models, inheritance, and extensible month-end processing. Integrated OpenTK for immediate mode OpenGL rendering with a fixed-timestep game loop and file-based polygon parsing. Configured modern ASP.NET Core Blazor Server applications with component routing, HTTPS redirection, and environment-aware error handling.",
+        "repo_url": "https://github.com/ваше_имя/C-"
+    },
+    {
+        "project_name": "ChM",
+        "summary": "A structured frontend lab project demonstrating modern CSS architecture, responsive design patterns, and maintainable stylesheet practices.",
+        "technologies": [
+            "CSS3",
+            "HTML5",
+            "Git",
+            "Flexbox",
+            "Responsive Media Queries",
+            "W3C CSS Validator"
+        ],
+        "key_features": [
+            "Modular CSS organization by layout, component, and utility",
+            "Mobile-first responsive design with relative units (rem, %, vw/vh)",
+            "Strict cascade management to avoid specificity conflicts",
+            "Comprehensive inline documentation for design decisions",
+            "Automated validation and cross-browser testing workflow"
+        ],
+        "achievements": "Engineered a scalable and maintainable CSS architecture with logical grouping and low-specificity selectors, implemented responsive flexbox grids with precise breakpoint control, and established a standardized development pipeline featuring W3C validation, local server testing, and conventional Git commit practices.",
+        "repo_url": "https://github.com/ваше_имя/ChM"
+    },
+    {
+        "project_name": "Dating",
+        "summary": "A lightweight, Telegram-authenticated dating profile manager built as a functional MVP. It demonstrates secure passwordless authentication, stateless session management, and server-side rendered routing using FastAPI and SQLite.",
+        "technologies": [
+            "Python 3.10+",
+            "FastAPI",
+            "Uvicorn",
+            "Pydantic",
+            "PyJWT",
+            "python-dotenv",
+            "SQLite3",
+            "HTML5",
+            "CSS3",
+            "Vanilla JS",
+            "Jinja2",
+            "Telegram Login Widget",
+            "JWT (HS256)"
+        ],
+        "key_features": [
+            "Telegram Authentication with HMAC-SHA256 payload verification",
+            "JWT Session Management with 1-hour expiration and Bearer validation",
+            "Automatic SQLite user upsert on first login with profile redirection",
+            "Server-side HTML rendering via FastAPI + Jinja2",
+            "Auto-generated interactive API documentation (Swagger UI & ReDoc)"
+        ],
+        "achievements": "Implemented secure passwordless authentication by cryptographically verifying Telegram Login Widget payloads using HMAC-SHA256. Designed stateless session management with time-bound JWTs and Bearer token validation. Built an async-ready backend with clear separation of concerns, integrating SQLite persistence with Pydantic validation. Proactively identified and documented critical production readiness improvements, including SQL injection mitigation via parameterized queries, proper database ID generation, and secure routing context handling.",
+        "repo_url": "https://github.com/ваше_имя/Dating"
+    },
+    {
+        "project_name": "PavelT2000.github.io",
+        "summary": "A responsive personal resume and portfolio website showcasing skills and experience, built with HTML, CSS, JS, and Bootstrap, and hosted on GitHub Pages.",
+        "technologies": [
+            "HTML5",
+            "CSS3",
+            "JavaScript (ES6+)",
+            "Bootstrap 5.2.3",
+            "Font Awesome 6.3.0",
+            "Google Fonts",
+            "GitHub Pages"
+        ],
+        "key_features": [
+            "Fully Responsive Layout",
+            "Smooth Navigation with ScrollSpy",
+            "Skill Visualization Grid",
+            "Contact Integration",
+            "Lightweight Static Architecture"
+        ],
+        "achievements": "Customized the Start Bootstrap Resume template to create a unique personal brand, implemented responsive design for desktop, tablet, and mobile viewports, optimized assets for fast loading performance, and configured deployment via GitHub Pages.",
+        "repo_url": "https://github.com/ваше_имя/github.io"
+    },
+    {
+        "project_name": "HelloWorld",
+        "summary": "A minimal, production-ready C# console application targeting .NET Framework 4.7.2, serving as a foundational template for legacy .NET workflows with standardized Visual Studio architecture and MSBuild configuration.",
+        "technologies": [
+            "C#",
+            ".NET Framework 4.7.2",
+            "MSBuild",
+            "Visual Studio 2019/2022",
+            "Git"
+        ],
+        "key_features": [
+            "Legacy MSBuild project format configuration",
+            "Assembly metadata management via AssemblyInfo.cs",
+            "Deterministic builds for reproducible compilation",
+            "Standard Debug/Release build configurations",
+            "Application runtime configuration via App.config"
+        ],
+        "achievements": "Configured legacy MSBuild project structure with explicit framework references and build configurations. Implemented deterministic builds to ensure reproducible compilation outputs across different environments. Established proper assembly metadata management and runtime configuration hooks following traditional .NET Framework conventions, creating a reliable reference template for legacy system development.",
+        "repo_url": "https://github.com/ваше_имя/HelloWorld"
+    },
+    {
+        "project_name": "HtmlLearning",
+        "summary": "An educational sandbox repository for practicing fundamental web development and algorithmic programming concepts through modular, hands-on exercises.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "C++",
+            "Git",
+            "VS Code",
+            "lldb"
+        ],
+        "key_features": [
+            "Modular directory structure for isolated technical objectives",
+            "Interactive JS DOM manipulation (mouse-tracking, event-driven toggling, dynamic generation)",
+            "Advanced CSS positioning and layered compositions",
+            "Semantic HTML table structures and typography styling",
+            "C++ manual digit-by-digit multiplication for large integers",
+            "Preconfigured VS Code debugging environment"
+        ],
+        "achievements": "Implemented manual large-integer arithmetic in C++ using string manipulation to bypass standard integer overflow limitations. Developed interactive DOM features including real-time mouse tracking and dynamic element generation. Engineered complex CSS positioning systems for layered asset placement. Structured a modular, self-contained learning environment with independent modules, local server configurations, and IDE debugging setups.",
+        "repo_url": "https://github.com/ваше_имя/HtmlLearning"
+    },
+    {
+        "project_name": "InformationTheory",
+        "summary": "A collection of educational cryptographic implementations for an Information Theory course, featuring a classical Decimation block cipher and an LFSR-based stream cipher with cross-platform UI.",
+        "technologies": [
+            ".NET 10",
+            ".NET 9",
+            "Windows Forms",
+            "Avalonia UI",
+            "CommunityToolkit.Mvvm",
+            "C#",
+            "MVVM"
+        ],
+        "key_features": [
+            "Decimation Cipher with 33-character Russian alphabet",
+            "Interactive step-by-step visualization via DataGridView",
+            "Automatic key validation and GCD correction",
+            "LFSR Stream Cipher with 30-bit state register",
+            "Byte-wise XOR encryption for various file types",
+            "Cross-platform support (Windows/macOS/Linux)",
+            "MVVM architecture for Lab 2"
+        ],
+        "achievements": "Implemented modular arithmetic for encryption/decryption including iterative modular inverse resolution. Developed a custom LFSR using bitwise operations for keystream generation. Designed extensible architecture with interfaces and MVVM patterns. Validated bit-perfect data recovery across multiple file formats.",
+        "repo_url": "https://github.com/ваше_имя/InformationTheory"
+    },
+    {
+        "project_name": "k-means-pattern-recognition",
+        "summary": "Python-based educational implementation of K-Means and Maximin clustering algorithms for pattern recognition, featuring an interactive CLI, vectorized computations, and iterative convergence visualization.",
+        "technologies": [
+            "Python 3.8+",
+            "NumPy",
+            "Matplotlib"
+        ],
+        "key_features": [
+            "Interactive CLI for dataset and cluster configuration",
+            "K-Means with convergence detection via np.allclose",
+            "Maximin algorithm with dynamic cluster determination",
+            "Vectorized distance calculations using NumPy broadcasting",
+            "Matplotlib visualization of iterative convergence and final clusters",
+            "Educational design for pattern recognition laboratory exercises"
+        ],
+        "achievements": "Optimized distance matrix computations using NumPy broadcasting to handle up to 100,000 data points efficiently, mitigating O(n×k) memory constraints. Implemented dynamic cluster discovery in the Maximin algorithm via adaptive distance thresholding. Engineered precise convergence detection for K-Means using np.allclose, eliminating redundant iterations. Built an interactive CLI with real-time iterative visualization to demonstrate algorithmic behavior for educational purposes.",
+        "repo_url": "https://github.com/PavelT2000/k-means-pattern-recognition"
+    },
+    {
+        "project_name": "kursach",
+        "summary": "A Delphi-based Windows desktop application for parsing, evaluating, and visualizing mathematical expressions, developed as an academic coursework project following BSUIR standards.",
+        "technologies": [
+            "Object Pascal (Delphi)",
+            "VCL (Visual Component Library)",
+            "Embarcadero RAD Studio",
+            "LaTeX",
+            "Microsoft Visio",
+            "Git"
+        ],
+        "key_features": [
+            "Custom mathematical expression parser with lexical and syntactic analysis",
+            "Real-time evaluation engine with operator precedence and error handling",
+            "Interactive graphical visualization with scrolling, scaling, and coordinate mapping",
+            "Native VCL-based Windows GUI for input and configuration",
+            "Comprehensive academic documentation with algorithm flowcharts and BSUIR-compliant LaTeX templates"
+        ],
+        "achievements": "Designed and implemented a custom expression parser and evaluation engine from scratch, successfully handling operator precedence, parentheses, variables, and runtime errors. Developed a custom graphical rendering system for mathematical fields with interactive coordinate transformation, scrolling, and scaling. Built a standalone test harness for isolated parser validation and structured the full development lifecycle with GOST-compliant documentation and algorithm flowcharts.",
+        "repo_url": "https://github.com/PavelT2000/kursach"
+    },
+    {
+        "project_name": "Lab-6-Test-Task",
+        "summary": "A .NET ASP.NET Core Web API application for managing and querying warehouse inventory data using a clean, layered architecture. It exposes RESTful endpoints with complex business logic for product and warehouse filtering, backed by EF Core and SQL Server.",
+        "technologies": [
+            ".NET 8/9",
+            "ASP.NET Core Web API",
+            "C#",
+            "Entity Framework Core",
+            "Microsoft SQL Server",
+            "Swagger UI",
+            "OpenAPI",
+            "REST",
+            "LINQ",
+            "Dependency Injection"
+        ],
+        "key_features": [
+            "Clean layered architecture (Controller → Service → Repository/DbContext)",
+            "RESTful API endpoints with complex business filtering rules",
+            "Automatic database seeding and schema generation on startup",
+            "Interactive API documentation via Swagger/OpenAPI",
+            "Asynchronous EF Core LINQ queries optimized for SQL translation",
+            "Strict separation of concerns with immutable core components"
+        ],
+        "achievements": "Implemented complex business logic strictly within the Service layer while adhering to strict immutability constraints on Models, Controllers, and DI configuration. Optimized database queries using asynchronous EF Core LINQ methods to ensure efficient SQL translation and execution. Designed stateless, scoped dependency injection and handled complex 1-to-many entity relationships with enum mapping. Configured automatic database initialization and seeding for rapid development cycles.",
+        "repo_url": "https://github.com/PavelT2000/Lab-6-Test-Task"
+    },
+    {
+        "project_name": "Laba2OAIP",
+        "summary": "Delphi VCL desktop application rendering a 2D animated ski jump sequence with procedural graphics, frame-based animation, and a resolution-independent coordinate system.",
+        "technologies": [
+            "Delphi (Embarcadero RAD Studio)",
+            "VCL Framework",
+            "WinAPI",
+            "Pascal",
+            "Git"
+        ],
+        "key_features": [
+            "Frame-based animation engine (~25 FPS via TTimer)",
+            "Procedural snowfall generation (50 dynamic particles)",
+            "Multi-stage automated ski jump sequence (5 phases)",
+            "Normalized coordinate system (0.0–1.0 mapping)",
+            "Interactive debug mode with coordinate measurement & clipboard export",
+            "Modular architecture with separated rendering, audio, and logic units"
+        ],
+        "achievements": "Engineered a resolution-independent normalized coordinate system to decouple logical positioning from screen dimensions. Designed a phase-driven animation pipeline synchronizing camera movement, procedural particle systems, and frame sequencing. Implemented non-intrusive real-time debugging tools (coordinate measurement, mouse panning) while maintaining a stable 25 FPS render loop. Structured the codebase into dedicated units following separation of concerns, ensuring maintainability and clear module boundaries.",
+        "repo_url": "https://github.com/PavelT2000/Laba2OAIP"
+    },
+    {
+        "project_name": "LANChatQt",
+        "summary": "A lightweight, serverless LAN messaging application built with C++17 and Qt Framework, enabling real-time text communication via a hybrid UDP/TCP networking model for automatic peer discovery and reliable message delivery.",
+        "technologies": [
+            "C++17",
+            "Qt Framework (5.15+/6.x)",
+            "qmake",
+            "GitHub Actions",
+            "QDataStream",
+            "UDP/TCP Sockets",
+            "Qt Widgets",
+            "Qt Network"
+        ],
+        "key_features": [
+            "Zero-config peer discovery via UDP broadcast",
+            "Reliable point-to-point TCP messaging",
+            "Heartbeat-based presence tracking with automatic timeout handling",
+            "Real-time dynamic UI with status indicators",
+            "Cross-platform compatibility (Windows, Linux, macOS)",
+            "Modular component-based architecture"
+        ],
+        "achievements": "Designed and implemented a hybrid UDP/TCP networking architecture for serverless LAN communication. Developed a custom serialization layer using QDataStream for type-safe packet transmission. Engineered a robust heartbeat mechanism with configurable timeouts (~15s) for automatic peer state management and connection cleanup. Structured the application using a modular, component-based design (UI, Core Logic, Network Abstraction, Serialization) ensuring separation of concerns and maintainability. Integrated CI/CD pipeline via GitHub Actions for automated Windows builds.",
+        "repo_url": "https://github.com/PavelT2000/LANChatQt"
+    },
+    {
+        "project_name": "my-home-server-app",
+        "summary": "A lightweight, self-hosted web dashboard and documentation hub built with FastAPI, optimized for Orange Pi Zero 3 SBC hardware with fully automated CI/CD deployment.",
+        "technologies": [
+            "Python 3.8+",
+            "FastAPI",
+            "Uvicorn",
+            "Jinja2",
+            "HTML5/CSS3",
+            "GitHub Actions",
+            "SSH",
+            "systemd",
+            "Tailscale",
+            "Cloudflare Tunnel",
+            "Linux/Debian"
+        ],
+        "key_features": [
+            "Async FastAPI backend with high performance",
+            "Server-side rendered responsive UI via Jinja2",
+            "Zero-touch CI/CD pipeline on push to main",
+            "Secure remote access via Tailscale mesh & Cloudflare Tunnel",
+            "Resource-optimized for Single Board Computers",
+            "Integrated Linux/systemd command cheat sheet"
+        ],
+        "achievements": "Designed and implemented a secure, zero-touch CI/CD pipeline that authenticates via Tailscale, deploys via SSH, and manages systemd services without manual intervention. Engineered a secure networking architecture combining Tailscale for internal SSH access and Cloudflare Tunnel for public exposure, eliminating the need to open inbound firewall ports. Optimized application footprint and service configuration for reliable operation on resource-constrained SBC hardware.",
+        "repo_url": "https://github.com/PavelT2000/my-home-server-app"
+    },
+    {
+        "project_name": "MyAiBotTg",
+        "summary": "A production-ready Telegram bot leveraging OpenAI's Assistants API v2 for semantic document search, with asynchronous PostgreSQL persistence, Redis state management, and Amplitude analytics.",
+        "technologies": [
+            "Python 3.12",
+            "aiogram 3.x",
+            "OpenAI Assistants API v2",
+            "PostgreSQL",
+            "asyncpg",
+            "SQLAlchemy 2.0",
+            "Redis 7",
+            "Amplitude",
+            "Alembic",
+            "Docker",
+            "Docker Compose",
+            "Pydantic"
+        ],
+        "key_features": [
+            "OpenAI Assistants API v2 with Vector Store & File Search",
+            "Asynchronous Telegram bot (aiogram 3.x) with Redis-backed FSM",
+            "Async PostgreSQL persistence via SQLAlchemy 2.0",
+            "Amplitude analytics integration for user behavior tracking",
+            "Containerized deployment with Docker Compose",
+            "Alembic database migrations for schema versioning"
+        ],
+        "achievements": "Designed and implemented a fully asynchronous, production-ready bot architecture handling concurrent user sessions via Redis FSM and async SQLAlchemy 2.0. Automated OpenAI Vector Store provisioning and domain-specific document ingestion on startup, enabling context-aware semantic search. Engineered robust infrastructure with Docker Compose, Alembic migrations, and secure environment configuration, while integrating Amplitude for real-time analytics and user behavior tracking.",
+        "repo_url": "https://github.com/PavelT2000/MyAiBotTg"
+    },
+    {
+        "project_name": "MyAiTgBot",
+        "summary": "Асинхронный Telegram-бот для ведения контекстных диалогов с пользователями через внешний AI-прокси, с сохранением истории в MongoDB и production-grade логированием.",
+        "technologies": [
+            "Python 3.10+",
+            "aiogram 3.x",
+            "asyncio",
+            "motor",
+            "MongoDB",
+            "httpx",
+            "pydantic-settings",
+            "Structured Logging"
+        ],
+        "key_features": [
+            "Async-First Architecture",
+            "Persistent Context Management",
+            "Dynamic Prompt Engineering",
+            "External AI Integration",
+            "Structured Logging & Monitoring",
+            "Environment-Driven Configuration"
+        ],
+        "achievements": "Спроектирована и реализована неблокирующая асинхронная архитектура на базе aiogram и motor. Разработан модуль динамического промпт-инжиниринга для автоматического форматирования истории диалогов в структурированные AI-запросы. Настроена интеграция с внешним AI-прокси через httpx с валидацией схем данных. Внедрена система раздельного логирования (БД, API, сервис, ошибки) для observability. Обеспечена типобезопасная конфигурация через pydantic-settings.",
+        "repo_url": "https://github.com/PavelT2000/MyAiTgBot"
+    },
+    {
+        "project_name": "Network",
+        "summary": "A collection of Windows-based network programming examples demonstrating UDP broadcast communication and TCP client-server architecture, built with C++17 and the WinSock2 API.",
+        "technologies": [
+            "C++17",
+            "WinSock2 API",
+            "CMake",
+            "MSVC/MinGW-w64",
+            "Windows API (CreateThread, Console API)",
+            "TCP/UDP Protocols",
+            "ANSI Escape Sequences"
+        ],
+        "key_features": [
+            "UDP broadcast chat with background listener thread",
+            "Synchronous TCP client-server architecture",
+            "Non-blocking console UI with dynamic message rendering",
+            "Configuration-driven port management",
+            "Graceful connection handling and error detection"
+        ],
+        "achievements": "Implemented asynchronous UDP message listening using std::thread and CreateThread to prevent blocking the main CLI input stream. Engineered a non-blocking console UI with dynamic message rendering using ANSI escape sequences and Windows terminal flags. Developed robust WinSock2 lifecycle management with proper socket configuration (SO_BROADCAST, inet_pton) and graceful TCP disconnect/error handling. Structured the project with CMake for cross-compiler compatibility while maintaining Windows-specific API integration.",
+        "repo_url": "https://github.com/PavelT2000/Network"
+    },
+    {
+        "project_name": "OAiP",
+        "summary": "Academic course archive for Fundamentals of Algorithms and Programming, containing Delphi source code, configurations, technical reports, and architectural diagrams for laboratory assignments and control works.",
+        "technologies": [
+            "Delphi (Object Pascal)",
+            "VCL (Visual Component Library)",
+            "Embarcadero RAD Studio",
+            "Git",
+            "Microsoft Visio",
+            "Draw.io"
+        ],
+        "key_features": [
+            "Structured repository by assignment type and academic sequence",
+            "Implementation of core algorithms (recursion, sorting, arrays, string processing, data structures)",
+            "Custom .aiignore for AI-assisted workflow optimization",
+            "Cross-platform line-ending normalization via .gitattributes",
+            "Comprehensive documentation with technical reports and architecture/flow diagrams"
+        ],
+        "achievements": "Implemented foundational algorithms and data structures from scratch in Object Pascal using the VCL framework. Designed and documented complex program logic through architectural and flow diagrams. Configured robust version control hygiene with custom ignore rules and line-ending normalization to manage IDE artifacts and ensure cross-platform compatibility. Structured a multi-project academic repository with clear traceability, build configurations, and comprehensive technical documentation.",
+        "repo_url": "https://github.com/PavelT2000/OAiP"
+    },
+    {
+        "project_name": "OAIP2",
+        "summary": "A structured collection of Delphi/Object Pascal projects demonstrating advanced programming concepts, including recursion, data structures, mathematical computation, GUI development, and automated testing.",
+        "technologies": [
+            "Object Pascal",
+            "Delphi",
+            "Embarcadero Delphi IDE",
+            "DUnitX",
+            "Microsoft Visio",
+            "Git"
+        ],
+        "key_features": [
+            "Recursive algorithm implementations (Hanoi, QuickSort, Permutations)",
+            "Mathematical expression evaluator & function plotter",
+            "Custom generic/typed list data structure",
+            "CRUD-style data management system with I/O",
+            "Automated unit testing suite (DUnitX)",
+            "Comprehensive architectural documentation & flowcharts"
+        ],
+        "achievements": "Developed and optimized complex recursive algorithms for combinatorial problems. Engineered a mathematical expression parser with GUI-based function plotting. Implemented custom typed list data structures and a CRUD system with persistent storage. Integrated DUnitX framework for automated unit testing across multiple modules. Structured a multi-project academic repository with version control, IDE configurations, and detailed technical documentation.",
+        "repo_url": "https://github.com/PavelT2000/OAIP2"
+    },
+    {
+        "project_name": "OKG",
+        "summary": "A structured, version-controlled workspace for engineering CAD laboratory assignments, integrating 3D modeling, 2D drafting, and AI-optimized development workflows.",
+        "technologies": [
+            "Autodesk Inventor",
+            "AutoCAD",
+            "Git",
+            "Git LFS",
+            "AI Assistants (Cursor, GitHub Copilot, Claude Code)",
+            "Photoshop/GIMP"
+        ],
+        "key_features": [
+            "Centralized Git repository for CAD binaries (.ipt, .dwg)",
+            "AI context management via .aiignore to prevent token limit exhaustion",
+            "Cross-platform line-ending normalization with .gitattributes",
+            "Manual version tracking and rollback system",
+            "Standardized technical documentation export pipeline"
+        ],
+        "achievements": "Architected a Git-based workflow specifically optimized for large binary CAD files, solving version control challenges through manual timestamped backups and AI context exclusion rules. Configured cross-platform repository settings to eliminate diff noise and established strict guidelines for handling temporary files, software version compatibility, and documentation exports. Designed a scalable migration strategy to Git LFS for long-term performance and documented best practices for AI-assisted engineering workflows.",
+        "repo_url": "https://github.com/PavelT2000/OKG"
+    },
+    {
+        "project_name": "OnlinerCPUParser",
+        "summary": "A Python-based web scraper that aggregates CPU specifications, performance ratings, and market pricing from Technical City and Onliner.by, merges the datasets, calculates a performance-to-price efficiency metric, and stores results in a local SQLite database.",
+        "technologies": [
+            "Python 3.8+",
+            "requests",
+            "beautifulsoup4",
+            "SQLite",
+            "JSON-LD parsing",
+            "Web Scraping",
+            "ETL Pipeline"
+        ],
+        "key_features": [
+            "Dual-source data aggregation from Technical City and Onliner.by",
+            "Intelligent data matching with automatic handling of packaging variants (box/wof)",
+            "Dynamic performance-to-price efficiency metric calculation (rating/price)",
+            "Automated SQLite database population with full schema refresh on each run",
+            "Automated reporting with aggregate market statistics (count, total/average price)"
+        ],
+        "achievements": "Engineered a robust cross-source ETL pipeline that parses both HTML table structures and JSON-LD embedded data across multiple paginated endpoints. Implemented intelligent data normalization logic to align disparate datasets by stripping packaging suffixes and accurately matching model names. Designed an automated database workflow that dynamically calculates derived efficiency metrics and manages SQLite schema creation/refresh, while proactively documenting production constraints like rate limiting, anti-bot protections, and data volatility handling.",
+        "repo_url": "https://github.com/PavelT2000/OnlinerCPUParser"
+    },
+    {
+        "project_name": "OOP Lab 1: Space Vessel Management System",
+        "summary": "A C# Windows Forms application demonstrating core OOP principles through a space fleet management simulation. It models a hierarchical spacecraft architecture with dynamic UI components and polymorphic fleet management.",
+        "technologies": [
+            "C#",
+            ".NET 6.0+",
+            "Windows Forms (WinForms)",
+            "Visual Studio / JetBrains Rider / VS Code",
+            "Git"
+        ],
+        "key_features": [
+            "Multi-level class hierarchy with abstract base and sealed derived classes",
+            "Polymorphic fleet management using heterogeneous collections",
+            "Dynamic UI component switching based on runtime selection",
+            "Custom indexers for array-based cargo log management",
+            "Strict encapsulation with validated properties and protected constructors",
+            "Object lifecycle management via finalizers"
+        ],
+        "achievements": "Successfully implemented a comprehensive OOP architecture in a desktop UI environment, resolving challenges in dynamic component loading, polymorphic state rendering, and data validation. Engineered a scalable class hierarchy with custom indexers and sealed classes to enforce design constraints, while structuring the codebase for future architectural migrations (MVVM/MVP) and deterministic resource management.",
+        "repo_url": "https://github.com/PavelT2000/OOP"
+    },
+    {
+        "project_name": "OOPLab1",
+        "summary": "A C# Windows Forms application demonstrating core OOP principles through a simulated space fleet management system. It models spacecraft hierarchies, manages operational states, and provides an interactive UI for dynamic ship creation and mission execution.",
+        "technologies": [
+            "C#",
+            ".NET SDK 6.0+",
+            "Windows Forms (WinForms)",
+            "Visual Studio 2022",
+            "Object-Oriented Programming (OOP)"
+        ],
+        "key_features": [
+            "Dynamic ship creation at runtime via modular input controls",
+            "Polymorphic mission execution with type-specific behavior",
+            "Real-time status tracking (fuel, IDs, specialized attributes)",
+            "Robust input validation and exception handling",
+            "Modular UI architecture using swappable UserControl panels",
+            "Custom indexers for cargo log management",
+            "Sealed classes to prevent unintended inheritance"
+        ],
+        "achievements": "Architected a multi-level OOP class hierarchy implementing abstraction, inheritance, polymorphism, and encapsulation. Engineered a modular WinForms UI with dynamic UserControl swapping and real-time fleet state synchronization. Solved complex runtime dispatch challenges using virtual/override methods and custom indexers for cargo management. Proactively identified architectural bottlenecks (UI/logic coupling, inefficient state updates) and documented scalable solutions including Factory pattern adoption, INotifyPropertyChanged for data binding, and .resx localization.",
+        "repo_url": "https://github.com/PavelT2000/OOPLab1"
+    },
+    {
+        "project_name": "Resume - Personal Portfolio Website",
+        "summary": "A responsive, single-page static portfolio website built with Bootstrap 5, featuring smooth navigation, print-friendly layout, and zero build-step requirements for optimal performance.",
+        "technologies": [
+            "HTML5",
+            "CSS3",
+            "Bootstrap 5.2.3",
+            "Vanilla JavaScript (ES6+)",
+            "Font Awesome 6.3.0",
+            "Flaticon UIcons",
+            "Google Fonts",
+            "SVG/WebP Optimization"
+        ],
+        "key_features": [
+            "Responsive Bootstrap 5 grid layout",
+            "Fixed sidebar with ScrollSpy & auto-collapsing mobile menu",
+            "Icon-driven skill visualization",
+            "Structured content sections (About, Experience, Education, Skills)",
+            "Zero dependencies & build tools",
+            "Print-friendly design",
+            "Direct external integrations (GitHub, LinkedIn, Telegram, Email)"
+        ],
+        "achievements": "Successfully customized and extended a base template into a fully responsive, zero-dependency static site. Implemented vanilla JS for ScrollSpy initialization and mobile navigation toggle logic. Optimized media assets (SVGs, WebP) for fast loading and cross-browser compatibility. Designed a structured content management workflow using a reference data file, enabling seamless updates without build steps. Configured architecture for frictionless deployment across GitHub Pages, Netlify, and Vercel.",
+        "repo_url": "https://github.com/PavelT2000/Resume"
+    },
+    {
+        "project_name": "saves",
+        "summary": "A lightweight Windows-based utility that automates Git workflows for managing, backing up, and synchronizing save files using batch scripts.",
+        "technologies": [
+            "Windows Batch Scripting",
+            "Git",
+            "Git LFS",
+            "Windows 10+"
+        ],
+        "key_features": [
+            "Automated push cycle (stage, commit, push) via AutoGit.bat",
+            "Automated pull/merge workflow via GitFetch.bat",
+            "Structured backup naming convention for manual and automated saves",
+            "Configurable console output timeout for visibility",
+            "AI context exclusion via .aiignore"
+        ],
+        "achievements": "Designed and implemented a Windows batch-based automation layer for Git-driven save file synchronization. Solved workflow friction by scripting non-interactive push/pull cycles, addressing binary versioning constraints through Git LFS documentation, and establishing a robust naming convention for backup tracking. Configured credential management to enable seamless automated execution without manual authentication prompts.",
+        "repo_url": "https://github.com/PavelT2000/saves"
+    },
+    {
+        "project_name": "Virtual-machines",
+        "summary": "A streamlined CLI toolkit for provisioning, managing, and orchestrating virtualized environments across multiple hypervisors and cloud platforms.",
+        "technologies": [
+            "Git",
+            "CLI Development",
+            "Infrastructure-as-Code (IaC)",
+            "Virtualization Backends (VirtualBox, QEMU/KVM, VMware)",
+            "Cloud Platforms (AWS EC2, Azure VMs)",
+            "CI/CD Pipelines",
+            "Cross-platform Configuration Management"
+        ],
+        "key_features": [
+            "Automated VM provisioning with minimal manual intervention",
+            "Reproducible environment deployments via IaC principles",
+            "Unified abstraction layer for cross-platform hypervisor/cloud compatibility",
+            "Comprehensive CLI for full VM lifecycle management (create, start, stop, status, list)",
+            "Optimized repository configuration for AI context exclusion and CI/CD consistency"
+        ],
+        "achievements": "Successfully abstracted complex, platform-specific hypervisor and cloud APIs into a single unified workflow. Implemented Infrastructure-as-Code principles to guarantee consistent, reproducible deployments across dev, staging, and production environments. Engineered cross-platform repository configurations to eliminate line-ending conflicts and strategically optimized AI/LLM context windows to reduce token usage and improve code analysis accuracy.",
+        "repo_url": "https://github.com/PavelT2000/Virtual-machines"
+    },
+    {
+        "project_name": "webApp",
+        "summary": "A full-stack Telegram Mini App & Web Platform for dating/social discovery, built with FastAPI and React 19. Features secure Telegram authentication, JWT-protected APIs, profile matching/swipe mechanics, and an integrated Telegram bot.",
+        "technologies": [
+            "Python 3.11+",
+            "FastAPI",
+            "SQLAlchemy",
+            "Alembic",
+            "Uvicorn",
+            "PyJWT",
+            "aiogram",
+            "Telethon",
+            "React 19",
+            "Vite",
+            "React Router DOM",
+            "Material UI",
+            "CSS Modules",
+            "@twa-dev/sdk",
+            "SQLite/PostgreSQL/MySQL",
+            "ESLint",
+            "npm",
+            "Git",
+            "Cloudflare Tunnel"
+        ],
+        "key_features": [
+            "Secure Telegram Mini App authentication via initData validation & JWT",
+            "Swipe-style profile discovery with skip/like logic",
+            "Likes & mutual matching tracking system",
+            "Media management with photo uploads & gallery preview",
+            "Advanced filtering (age, city, gender, like-status)",
+            "Integrated Telegram bot for notifications & admin tasks",
+            "Alembic-powered DB migrations with cascade deletes",
+            "Responsive SPA optimized for Telegram WebView"
+        ],
+        "achievements": "Architected a secure authentication flow by validating Telegram's initData and issuing JWTs for stateless API access. Engineered complex relational data models with SQLAlchemy to handle swipe mechanics, mutual matching, and cascade deletes. Integrated asynchronous Telegram bot processes alongside FastAPI for background notifications. Optimized frontend delivery using React 19, Vite, and TWA SDK to ensure native-like performance within Telegram's WebView constraints. Streamlined deployment by configuring FastAPI to serve the compiled React SPA in production.",
+        "repo_url": "https://github.com/PavelT2000/webApp"
+    }
+]

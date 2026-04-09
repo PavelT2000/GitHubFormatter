@@ -1,0 +1,25 @@
+{
+    "project_name": "Resume - Personal Portfolio Website",
+    "summary": "A responsive, single-page static portfolio website built with Bootstrap 5, featuring smooth navigation, print-friendly layout, and zero build-step requirements for optimal performance.",
+    "technologies": [
+        "HTML5",
+        "CSS3",
+        "Bootstrap 5.2.3",
+        "Vanilla JavaScript (ES6+)",
+        "Font Awesome 6.3.0",
+        "Flaticon UIcons",
+        "Google Fonts",
+        "SVG/WebP Optimization"
+    ],
+    "key_features": [
+        "Responsive Bootstrap 5 grid layout",
+        "Fixed sidebar with ScrollSpy & auto-collapsing mobile menu",
+        "Icon-driven skill visualization",
+        "Structured content sections (About, Experience, Education, Skills)",
+        "Zero dependencies & build tools",
+        "Print-friendly design",
+        "Direct external integrations (GitHub, LinkedIn, Telegram, Email)"
+    ],
+    "achievements": "Successfully customized and extended a base template into a fully responsive, zero-dependency static site. Implemented vanilla JS for ScrollSpy initialization and mobile navigation toggle logic. Optimized media assets (SVGs, WebP) for fast loading and cross-browser compatibility. Designed a structured content management workflow using a reference data file, enabling seamless updates without build steps. Configured architecture for frictionless deployment across GitHub Pages, Netlify, and Vercel.",
+    "repo_url": "https://github.com/PavelT2000/Resume"
+}

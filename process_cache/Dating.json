@@ -1,0 +1,28 @@
+{
+    "project_name": "Dating",
+    "summary": "A lightweight, Telegram-authenticated dating profile manager built as a functional MVP. It demonstrates secure passwordless authentication, stateless session management, and server-side rendered routing using FastAPI and SQLite.",
+    "technologies": [
+        "Python 3.10+",
+        "FastAPI",
+        "Uvicorn",
+        "Pydantic",
+        "PyJWT",
+        "python-dotenv",
+        "SQLite3",
+        "HTML5",
+        "CSS3",
+        "Vanilla JS",
+        "Jinja2",
+        "Telegram Login Widget",
+        "JWT (HS256)"
+    ],
+    "key_features": [
+        "Telegram Authentication with HMAC-SHA256 payload verification",
+        "JWT Session Management with 1-hour expiration and Bearer validation",
+        "Automatic SQLite user upsert on first login with profile redirection",
+        "Server-side HTML rendering via FastAPI + Jinja2",
+        "Auto-generated interactive API documentation (Swagger UI & ReDoc)"
+    ],
+    "achievements": "Implemented secure passwordless authentication by cryptographically verifying Telegram Login Widget payloads using HMAC-SHA256. Designed stateless session management with time-bound JWTs and Bearer token validation. Built an async-ready backend with clear separation of concerns, integrating SQLite persistence with Pydantic validation. Proactively identified and documented critical production readiness improvements, including SQL injection mitigation via parameterized queries, proper database ID generation, and secure routing context handling.",
+    "repo_url": "https://github.com/ваше_имя/Dating"
+}

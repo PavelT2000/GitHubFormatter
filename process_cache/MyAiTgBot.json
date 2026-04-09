@@ -1,0 +1,24 @@
+{
+    "project_name": "MyAiTgBot",
+    "summary": "Асинхронный Telegram-бот для ведения контекстных диалогов с пользователями через внешний AI-прокси, с сохранением истории в MongoDB и production-grade логированием.",
+    "technologies": [
+        "Python 3.10+",
+        "aiogram 3.x",
+        "asyncio",
+        "motor",
+        "MongoDB",
+        "httpx",
+        "pydantic-settings",
+        "Structured Logging"
+    ],
+    "key_features": [
+        "Async-First Architecture",
+        "Persistent Context Management",
+        "Dynamic Prompt Engineering",
+        "External AI Integration",
+        "Structured Logging & Monitoring",
+        "Environment-Driven Configuration"
+    ],
+    "achievements": "Спроектирована и реализована неблокирующая асинхронная архитектура на базе aiogram и motor. Разработан модуль динамического промпт-инжиниринга для автоматического форматирования истории диалогов в структурированные AI-запросы. Настроена интеграция с внешним AI-прокси через httpx с валидацией схем данных. Внедрена система раздельного логирования (БД, API, сервис, ошибки) для observability. Обеспечена типобезопасная конфигурация через pydantic-settings.",
+    "repo_url": "https://github.com/PavelT2000/MyAiTgBot"
+}

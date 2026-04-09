@@ -1,0 +1,25 @@
+{
+  "project_name": ".NET Learning & Project Repository",
+  "summary": "Structured repository documenting progressive C# fundamentals, OOP, and ASP.NET Core Web API development, culminating in production-ready Task Management API with JWT authentication and EF Core.",
+  "technologies": [
+    "C# 12",
+    ".NET 8",
+    "ASP.NET Core Web API",
+    "Entity Framework Core 8",
+    "SQLite",
+    "JWT (JSON Web Tokens)",
+    "Swagger/OpenAPI",
+    ".NET CLI",
+    "EF Core Migrations"
+  ],
+  "key_features": [
+    "Progressive C# & OOP console exercises covering syntax, collections, async/await, and exception handling",
+    "ASP.NET Core Web API with middleware pipeline, dependency injection, and attribute routing",
+    "Code-first database migrations with EF Core & SQLite",
+    "JWT-based authentication with claims and [Authorize] attributes",
+    "Swagger/OpenAPI documentation for interactive API testing",
+    "DTOs, model validation, and separation of concerns"
+  ],
+  "achievements": "Architected secure RESTful API with JWT token generation, claims-based authorization, and EF Core code-first migrations. Overcame middleware configuration, DTO mapping, model validation, and async programming challenges while building production-grade codebase with Swagger documentation and secure endpoint authorization.",
+  "repo_url": "https://github.com/ваше_имя/.Net"
+}

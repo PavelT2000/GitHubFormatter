@@ -1,0 +1,27 @@
+{
+    "project_name": "my-home-server-app",
+    "summary": "A lightweight, self-hosted web dashboard and documentation hub built with FastAPI, optimized for Orange Pi Zero 3 SBC hardware with fully automated CI/CD deployment.",
+    "technologies": [
+        "Python 3.8+",
+        "FastAPI",
+        "Uvicorn",
+        "Jinja2",
+        "HTML5/CSS3",
+        "GitHub Actions",
+        "SSH",
+        "systemd",
+        "Tailscale",
+        "Cloudflare Tunnel",
+        "Linux/Debian"
+    ],
+    "key_features": [
+        "Async FastAPI backend with high performance",
+        "Server-side rendered responsive UI via Jinja2",
+        "Zero-touch CI/CD pipeline on push to main",
+        "Secure remote access via Tailscale mesh & Cloudflare Tunnel",
+        "Resource-optimized for Single Board Computers",
+        "Integrated Linux/systemd command cheat sheet"
+    ],
+    "achievements": "Designed and implemented a secure, zero-touch CI/CD pipeline that authenticates via Tailscale, deploys via SSH, and manages systemd services without manual intervention. Engineered a secure networking architecture combining Tailscale for internal SSH access and Cloudflare Tunnel for public exposure, eliminating the need to open inbound firewall ports. Optimized application footprint and service configuration for reliable operation on resource-constrained SBC hardware.",
+    "repo_url": "https://github.com/PavelT2000/my-home-server-app"
+}

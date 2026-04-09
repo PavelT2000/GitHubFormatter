@@ -1,0 +1,22 @@
+{
+    "project_name": "Network",
+    "summary": "A collection of Windows-based network programming examples demonstrating UDP broadcast communication and TCP client-server architecture, built with C++17 and the WinSock2 API.",
+    "technologies": [
+        "C++17",
+        "WinSock2 API",
+        "CMake",
+        "MSVC/MinGW-w64",
+        "Windows API (CreateThread, Console API)",
+        "TCP/UDP Protocols",
+        "ANSI Escape Sequences"
+    ],
+    "key_features": [
+        "UDP broadcast chat with background listener thread",
+        "Synchronous TCP client-server architecture",
+        "Non-blocking console UI with dynamic message rendering",
+        "Configuration-driven port management",
+        "Graceful connection handling and error detection"
+    ],
+    "achievements": "Implemented asynchronous UDP message listening using std::thread and CreateThread to prevent blocking the main CLI input stream. Engineered a non-blocking console UI with dynamic message rendering using ANSI escape sequences and Windows terminal flags. Developed robust WinSock2 lifecycle management with proper socket configuration (SO_BROADCAST, inet_pton) and graceful TCP disconnect/error handling. Structured the project with CMake for cross-compiler compatibility while maintaining Windows-specific API integration.",
+    "repo_url": "https://github.com/PavelT2000/Network"
+}

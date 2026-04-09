@@ -1,0 +1,24 @@
+{
+    "project_name": "LANChatQt",
+    "summary": "A lightweight, serverless LAN messaging application built with C++17 and Qt Framework, enabling real-time text communication via a hybrid UDP/TCP networking model for automatic peer discovery and reliable message delivery.",
+    "technologies": [
+        "C++17",
+        "Qt Framework (5.15+/6.x)",
+        "qmake",
+        "GitHub Actions",
+        "QDataStream",
+        "UDP/TCP Sockets",
+        "Qt Widgets",
+        "Qt Network"
+    ],
+    "key_features": [
+        "Zero-config peer discovery via UDP broadcast",
+        "Reliable point-to-point TCP messaging",
+        "Heartbeat-based presence tracking with automatic timeout handling",
+        "Real-time dynamic UI with status indicators",
+        "Cross-platform compatibility (Windows, Linux, macOS)",
+        "Modular component-based architecture"
+    ],
+    "achievements": "Designed and implemented a hybrid UDP/TCP networking architecture for serverless LAN communication. Developed a custom serialization layer using QDataStream for type-safe packet transmission. Engineered a robust heartbeat mechanism with configurable timeouts (~15s) for automatic peer state management and connection cleanup. Structured the application using a modular, component-based design (UI, Core Logic, Network Abstraction, Serialization) ensuring separation of concerns and maintainability. Integrated CI/CD pipeline via GitHub Actions for automated Windows builds.",
+    "repo_url": "https://github.com/PavelT2000/LANChatQt"
+}

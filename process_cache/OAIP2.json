@@ -1,0 +1,22 @@
+{
+    "project_name": "OAIP2",
+    "summary": "A structured collection of Delphi/Object Pascal projects demonstrating advanced programming concepts, including recursion, data structures, mathematical computation, GUI development, and automated testing.",
+    "technologies": [
+        "Object Pascal",
+        "Delphi",
+        "Embarcadero Delphi IDE",
+        "DUnitX",
+        "Microsoft Visio",
+        "Git"
+    ],
+    "key_features": [
+        "Recursive algorithm implementations (Hanoi, QuickSort, Permutations)",
+        "Mathematical expression evaluator & function plotter",
+        "Custom generic/typed list data structure",
+        "CRUD-style data management system with I/O",
+        "Automated unit testing suite (DUnitX)",
+        "Comprehensive architectural documentation & flowcharts"
+    ],
+    "achievements": "Developed and optimized complex recursive algorithms for combinatorial problems. Engineered a mathematical expression parser with GUI-based function plotting. Implemented custom typed list data structures and a CRUD system with persistent storage. Integrated DUnitX framework for automated unit testing across multiple modules. Structured a multi-project academic repository with version control, IDE configurations, and detailed technical documentation.",
+    "repo_url": "https://github.com/PavelT2000/OAIP2"
+}
