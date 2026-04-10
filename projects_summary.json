@@ -1,0 +1,45 @@
+[
+    {
+        "project_name": ".NET Learning & Project Repository",
+        "summary": "A structured educational repository documenting a two-week intensive learning path in .NET 8, progressing from C# fundamentals and OOP to building a production-ready Task Management Web API with JWT authentication and EF Core.",
+        "technologies": [
+            "C# 12",
+            ".NET 8",
+            "ASP.NET Core Web API",
+            "Entity Framework Core 8",
+            "SQLite",
+            "JWT",
+            "Swagger/OpenAPI"
+        ],
+        "key_features": [
+            "Comprehensive 14-day learning roadmap",
+            "Hands-on console applications for C# basics",
+            "Task Management API with CRUD operations",
+            "JWT-based secure authentication",
+            "DTO pattern implementation for data separation",
+            "Database migrations and SQLite integration"
+        ],
+        "achievements": "Successfully implemented a modular Task Management API featuring secure user-specific task handling, proper DTO usage, and automated API documentation via Swagger.",
+        "repo_url": "https://api.github.com/repos/PavelT2000/.Net",
+        "github_html_url": "https://github.com/PavelT2000/.Net"
+    },
+    {
+        "project_name": "ADS2025-02-12: Data Structures & Algorithms Course Repository",
+        "summary": "A centralized repository for the Data Structures and Algorithms course at BSUIR (Spring 2025), containing student implementations, instructor reference solutions, and standardized lesson modules for academic assessment.",
+        "technologies": [
+            "Java",
+            "JUnit",
+            "JDK 11+"
+        ],
+        "key_features": [
+            "Standardized directory-to-package mapping for Java",
+            "Comprehensive curriculum covering 15 algorithmic topics",
+            "Automated testing framework using JUnit",
+            "Instructor-provided reference implementations and test harnesses",
+            "Mandatory documentation requirements (description.md) for complexity analysis"
+        ],
+        "achievements": "Provides a structured, scalable environment for managing student submissions across multiple academic groups while ensuring code quality through standardized testing and documentation guidelines.",
+        "repo_url": "https://api.github.com/repos/PavelT2000/ADS2025-02-12",
+        "github_html_url": "https://github.com/PavelT2000/ADS2025-02-12"
+    }
+]
