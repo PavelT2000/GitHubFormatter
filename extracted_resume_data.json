@@ -22,7 +22,7 @@
             "DTOs, model validation, and separation of concerns"
         ],
         "achievements": "Successfully architected a secure RESTful API implementing JWT token generation, claims-based authorization, and EF Core code-first migrations. Overcame challenges in middleware pipeline configuration, DTO mapping, model validation, and asynchronous programming while structuring a comprehensive, production-grade codebase with Swagger documentation and secure endpoint authorization.",
-        "repo_url": "https://github.com/ваше_имя/.Net"
+        "repo_url": "https://github.com/PavelT2000/.Net"
     },
     {
         "project_name": "ADS2025-02-12",
@@ -43,7 +43,7 @@
             "Per-student documentation requirements"
         ],
         "achievements": "Implemented complex data structures and algorithms including AVL/Red-Black trees, Graph algorithms, and Dynamic Programming. Managed cross-platform compatibility for Cyrillic package names and UTF-8 encoding.",
-        "repo_url": "https://github.com/ваше_имя/ADS2025-02-12"
+        "repo_url": "https://github.com/PavelT2000/ADS2025-02-12"
     },
     {
         "project_name": "AISD",
@@ -64,7 +64,7 @@
             "Extensible centralized data model for rooms and routes"
         ],
         "achievements": "Designed and implemented a state-machine architecture to manage complex multi-step user input and decision branching for precise room identification. Engineered a directed graph routing system that delivers deterministic navigation paths without relying on heavy pathfinding algorithms. Orchestrated seamless phase transitions (identification → navigation → restart) and console I/O within a single execution loop, while maintaining a zero-dependency, highly extensible codebase with clean separation of concerns.",
-        "repo_url": "https://github.com/ваше_имя/AISD"
+        "repo_url": "https://github.com/PavelT2000/AISD"
     },
     {
         "project_name": "ai_service",
@@ -89,7 +89,7 @@
             "Production-optimized structured logging"
         ],
         "achievements": "Designed and implemented a resilient AI proxy with automatic model fallback to gracefully handle API failures and timeouts. Engineered complex function calling logic with tool declaration parsing and structured argument extraction. Built strict, type-safe request/response validation using Pydantic v2, ensuring data integrity and auto-generated OpenAPI documentation. Configured namespace-optimized, stdout-ready logging for seamless integration with Docker, systemd, and cloud observability stacks. Developed a flexible proxy routing architecture to enable secure deployment in restricted corporate network environments.",
-        "repo_url": "https://github.com/ваше_имя/ai_service"
+        "repo_url": "https://github.com/PavelT2000/ai_service"
     },
     {
         "project_name": "bitset",
@@ -108,7 +108,7 @@
             "Comprehensive built-in test suite"
         ],
         "achievements": "Implemented dynamic memory management for bit storage with automatic resizing when exceeding capacity. Designed exception-safe resource handling using the copy-and-swap idiom for robust copy/move semantics. Optimized set operations (union, intersection, subset checks) via 64-bit block-level bitwise manipulation. Delivered a standalone, zero-dependency library with a complete test suite ensuring correctness and performance.",
-        "repo_url": "https://github.com/ваше_имя/bitset"
+        "repo_url": "https://github.com/PavelT2000/bitset"
     },
     {
         "project_name": "C-",
@@ -133,7 +133,7 @@
             "Console-based SQL integration module"
         ],
         "achievements": "Engineered a foundational software 3D rendering pipeline from scratch using WinForms GDI+, implementing custom vector algebra, camera transforms, and polygon rasterization without hardware acceleration. Designed a robust OOP banking architecture with immutable transaction models, inheritance, and extensible month-end processing. Integrated OpenTK for immediate mode OpenGL rendering with a fixed-timestep game loop and file-based polygon parsing. Configured modern ASP.NET Core Blazor Server applications with component routing, HTTPS redirection, and environment-aware error handling.",
-        "repo_url": "https://github.com/ваше_имя/C-"
+        "repo_url": "https://github.com/PavelT2000/C-"
     },
     {
         "project_name": "ChM",
@@ -154,7 +154,7 @@
             "Automated validation and cross-browser testing workflow"
         ],
         "achievements": "Engineered a scalable and maintainable CSS architecture with logical grouping and low-specificity selectors, implemented responsive flexbox grids with precise breakpoint control, and established a standardized development pipeline featuring W3C validation, local server testing, and conventional Git commit practices.",
-        "repo_url": "https://github.com/ваше_имя/ChM"
+        "repo_url": "https://github.com/PavelT2000/ChM"
     },
     {
         "project_name": "Dating",
@@ -182,7 +182,7 @@
             "Auto-generated interactive API documentation (Swagger UI & ReDoc)"
         ],
         "achievements": "Implemented secure passwordless authentication by cryptographically verifying Telegram Login Widget payloads using HMAC-SHA256. Designed stateless session management with time-bound JWTs and Bearer token validation. Built an async-ready backend with clear separation of concerns, integrating SQLite persistence with Pydantic validation. Proactively identified and documented critical production readiness improvements, including SQL injection mitigation via parameterized queries, proper database ID generation, and secure routing context handling.",
-        "repo_url": "https://github.com/ваше_имя/Dating"
+        "repo_url": "https://github.com/PavelT2000/Dating"
     },
     {
         "project_name": "PavelT2000.github.io",
@@ -204,7 +204,7 @@
             "Lightweight Static Architecture"
         ],
         "achievements": "Customized the Start Bootstrap Resume template to create a unique personal brand, implemented responsive design for desktop, tablet, and mobile viewports, optimized assets for fast loading performance, and configured deployment via GitHub Pages.",
-        "repo_url": "https://github.com/ваше_имя/github.io"
+        "repo_url": "https://github.com/PavelT2000/github.io"
     },
     {
         "project_name": "HelloWorld",
@@ -224,7 +224,7 @@
             "Application runtime configuration via App.config"
         ],
         "achievements": "Configured legacy MSBuild project structure with explicit framework references and build configurations. Implemented deterministic builds to ensure reproducible compilation outputs across different environments. Established proper assembly metadata management and runtime configuration hooks following traditional .NET Framework conventions, creating a reliable reference template for legacy system development.",
-        "repo_url": "https://github.com/ваше_имя/HelloWorld"
+        "repo_url": "https://github.com/PavelT2000/HelloWorld"
     },
     {
         "project_name": "HtmlLearning",
@@ -247,7 +247,7 @@
             "Preconfigured VS Code debugging environment"
         ],
         "achievements": "Implemented manual large-integer arithmetic in C++ using string manipulation to bypass standard integer overflow limitations. Developed interactive DOM features including real-time mouse tracking and dynamic element generation. Engineered complex CSS positioning systems for layered asset placement. Structured a modular, self-contained learning environment with independent modules, local server configurations, and IDE debugging setups.",
-        "repo_url": "https://github.com/ваше_имя/HtmlLearning"
+        "repo_url": "https://github.com/PavelT2000/HtmlLearning"
     },
     {
         "project_name": "InformationTheory",
@@ -271,7 +271,7 @@
             "MVVM architecture for Lab 2"
         ],
         "achievements": "Implemented modular arithmetic for encryption/decryption including iterative modular inverse resolution. Developed a custom LFSR using bitwise operations for keystream generation. Designed extensible architecture with interfaces and MVVM patterns. Validated bit-perfect data recovery across multiple file formats.",
-        "repo_url": "https://github.com/ваше_имя/InformationTheory"
+        "repo_url": "https://github.com/PavelT2000/InformationTheory"
     },
     {
         "project_name": "k-means-pattern-recognition",

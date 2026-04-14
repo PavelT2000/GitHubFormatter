@@ -9,8 +9,8 @@ load_dotenv()
 
 class ProjectMatcher:
     def __init__(self, vector_store_path="vector_store.json"):
-        self.ai_url = os.getenv("AI_SERVICE_URL")
-        self.embed_url = os.getenv("EMBED_SERVICE_URL")
+        self.ai_url = str(os.getenv("AI_SERVICE_URL"))
+        self.embed_url = str(os.getenv("EMBED_SERIVCE_URL"))
         self.vector_store_path = vector_store_path
         self.projects = self._load_store()
 
@@ -56,10 +56,10 @@ class ProjectMatcher:
         """Основная функция: сжимает, векторизует и сравнивает"""
         print("🧹 Очистка вакансии...")
         clean_job = self._squeeze_job(job_description)
-        
+
         print("🧬 Векторизация требований...")
         job_vector = self._get_embedding(clean_job)
-        
+
         if not job_vector:
             return []
 
@@ -80,11 +80,11 @@ class ProjectMatcher:
 # Пример использования:
 if __name__ == "__main__":
     matcher = ProjectMatcher()
-    
-    url="https://rabota.by/vacancy/131886391?from=applicant_recommended&hhtmFrom=main"
+
+    url="https://rabota.by/vacancy/131987206?query=C%2B%2B&hhtmFrom=vacancy_search_list"
     text=get_vacancy_text(url=url)
     top_projects = matcher.find_top_projects(text,5)
-    
+
     for p in top_projects:
         print(f"\n[Score: {p['score']:.4f}] Проект: {p['name']}")
         print(f"Суть: {p['summary'][:150]}...")
